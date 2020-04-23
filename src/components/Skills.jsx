@@ -1,18 +1,22 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
+import H2Element from "../utils/H2Element";
 
 const Skills = ({ data }) => (
-  <Container>
-    {data &&
-      data.map((skill, key) => (
-        <div key={`SKILL-${key}`}>
-          <SkillsH5>{skill.name}</SkillsH5>
-          <SkillsLine>
-            <SkillsSpan width={skill.percentage} />
-          </SkillsLine>
-        </div>
-      ))}
-  </Container>
+  <>
+    <H2Element title="Skills" />
+    <Container>
+      {data &&
+        data.map((skill, key) => (
+          <div key={`SKILL-${key}`}>
+            <SkillsH5>{skill.name}</SkillsH5>
+            <SkillsLine>
+              <SkillsSpan width={skill.percentage} />
+            </SkillsLine>
+          </div>
+        ))}
+    </Container>
+  </>
 );
 
 const Container = styled.div`
@@ -33,7 +37,7 @@ const SkillsLine = styled.div`
   height: 8px;
   position: relative;
   border-radius: 50px;
-  background-color: #f8bbd0;
+  background-color: #20534c;
 `;
 
 const move = keyframes`
@@ -48,7 +52,7 @@ const SkillsSpan = styled.span`
   overflow: hidden;
   position: relative;
   border-radius: 8px;
-  background-color: #c2185b;
+  background-color: #00bfa5;
   box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
     inset 0 -2px 6px rgba(0, 0, 0, 0.4);
 

@@ -34,7 +34,7 @@ const AboutImg = styled.img`
   display: block;
   border-radius: 100%;
   border: 2px solid #1976d2;
-  box-shadow: 0 0 10px rgba(25, 118, 210, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   background: url(https://via.placeholder.com/160x160) no-repeat scroll 0 0;
 `;
 
@@ -47,7 +47,7 @@ const AboutName = styled.h2`
 `;
 
 const AboutProfession = styled.p`
-  color: #1976d2;
+  color: #00bfa5;
   font-weight: 300;
   margin: 0.2em 0 1em 0;
   letter-spacing: 1.6px;

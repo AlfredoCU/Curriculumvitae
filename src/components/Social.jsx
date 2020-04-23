@@ -62,7 +62,7 @@ const linkedin = {
 };
 
 const github = {
-  color: "#ffffff",
+  color: "#333333",
 };
 
 export default Social;
