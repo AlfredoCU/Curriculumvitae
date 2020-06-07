@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-// Return explicito. Enpujar otros componentes.
+// Return Implícito!! Enpujar otros componentes.
 const Main = ({ children }) => (
   <Container>
     <Content>{children}</Content>
