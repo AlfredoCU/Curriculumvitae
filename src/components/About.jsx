@@ -6,7 +6,7 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
   <Container>
     <Avatar>
       <figure>
-        <AboutImg src={avatar} alt="" />
+        <AboutImg src={avatar} alt="Avatar" />
       </figure>
     </Avatar>
     <div>
